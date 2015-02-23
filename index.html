@@ -9,9 +9,7 @@
   <meta name="author" content="Eric Finster">
 
   
-  <meta name="description" content="In this first series of posts, I’m going to show you how to find some
-simple, elegant geometic concepts lurking right at the heart of
-functional &hellip;">
+  <meta name="description" content="Ever since I became interested in homotopy type theory, I’ve been fascinated by the idea that we can build interesting topological (or more &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -114,44 +112,33 @@ functional &hellip;">
   </header>
 
 
-  <div class="entry-content"><p>In this first series of posts, I’m going to show you how to find some
-simple, elegant geometic concepts lurking right at the heart of
-functional programming.  We’re going to go back to basics, revisiting
-our old friends lists and trees, in order to see how these canonical
-datatypes extend naturally into higher dimensions.</p>
+  <div class="entry-content"><p>Ever since I became interested in 
+<a href="http://www.homotopytypetheory.org">homotopy type theory</a>, I’ve been 
+fascinated by the idea that we can build interesting topological (or more
+accurately, homotopy theoretic or higher categorical) objects out 
+of pure logic.  In this first series of posts, I’m going to show 
+you how some of the most basic datatypes of functional programming, 
+lists and trees, are strikingly easy to extend into higher dimensions. 
+All of this is very nicely described in the paper 
+<a href="https://personal.cis.strath.ac.uk/neil.ghani/papers/ghani-calco07.pdf">Higher Trees, Algebraically</a>
+by Neil Ghani and Alexander Kurz, although I have repackaged it a
+bit for simplicity and to suit my purposes in later posts.</p>
 
-<p>I’m going to use 
-<a href="http://wiki.portal.chalmers.se/agda/pmwiki.php">Agda</a> style notation
-to illustrate these ideas, but I think what I say should be clear
-enough to anyone with some functional programming experience. 
-Everything here is relatively easy to translate into any other 
-modern functional language like Scala, OCaml or Haskell.</p>
+<p>I’ll be giving the code samples in
+<a href="http://wiki.portal.chalmers.se/agda/pmwiki.php">Agda</a> since it is so
+simple and concise, although I think what I say should be reasonably
+clear to anyone with some functional programming experience.
+Everything here is relatively easy to translate into any other modern
+functional language such as Scala, OCaml or Haskell.</p>
 
-<p>So, let’s start with a basic definition of a list. Notice I am not
-taking advantage of infix notational sugaring here, and simply using
-the standard nil/cons approach.  The reason will become clear
-shortly.</p>
+<p>Let’s get started!</p>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-</pre></td><td class="code"><pre><code class="agda"><span class="line">  <span class="kr">data</span> List <span class="o">(</span>A <span class="ow">:</span> <span class="kt">Set</span><span class="o">)</span> <span class="ow">:</span> <span class="kt">Set</span> <span class="kr">where</span>
-</span><span class="line">    <span class="nf">nil</span>  <span class="ow">:</span>              List A
-</span><span class="line">    <span class="nf">cons</span> <span class="ow">:</span> A <span class="ow">→</span> List A <span class="ow">→</span> List A
-</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>Now let’s take a sample term here, and try to give it a nice
-geometric interpretation.  Here is my term:</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-</pre></td><td class="code"><pre><code class="agda"><span class="line">  <span class="nf">list</span> <span class="ow">:</span> List ℕ
-</span><span class="line">  list <span class="ow">=</span> cons <span class="mi">3</span> <span class="o">(</span>cons <span class="mi">1</span> <span class="o">(</span>cons <span class="mi">2</span> nil<span class="o">))</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>To be continued …</p>
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/2015/02/21/higher-dimensional-trees-i-basics/">Read on &rarr;</a>
+    </footer>
   
 
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Finster's Blog]]></title>
   <link href="http://ericfinster.github.io/atom.xml" rel="self"/>
   <link href="http://ericfinster.github.io/"/>
-  <updated>2015-02-21T21:46:49-08:00</updated>
+  <updated>2015-02-23T00:47:59-08:00</updated>
   <id>http://ericfinster.github.io/</id>
   <author>
     <name><![CDATA[Eric Finster]]></name>
@@ -18,42 +18,199 @@
     <link href="http://ericfinster.github.io/blog/2015/02/21/higher-dimensional-trees-i-basics/"/>
     <updated>2015-02-21T16:21:58-08:00</updated>
     <id>http://ericfinster.github.io/blog/2015/02/21/higher-dimensional-trees-i-basics</id>
-    <content type="html"><![CDATA[<p>In this first series of posts, I’m going to show you how to find some
-simple, elegant geometic concepts lurking right at the heart of
-functional programming.  We’re going to go back to basics, revisiting
-our old friends lists and trees, in order to see how these canonical
-datatypes extend naturally into higher dimensions.</p>
+    <content type="html"><![CDATA[<p>Ever since I became interested in 
+<a href="http://www.homotopytypetheory.org">homotopy type theory</a>, I’ve been 
+fascinated by the idea that we can build interesting topological (or more
+accurately, homotopy theoretic or higher categorical) objects out 
+of pure logic.  In this first series of posts, I’m going to show 
+you how some of the most basic datatypes of functional programming, 
+lists and trees, are strikingly easy to extend into higher dimensions. 
+All of this is very nicely described in the paper 
+<a href="https://personal.cis.strath.ac.uk/neil.ghani/papers/ghani-calco07.pdf">Higher Trees, Algebraically</a>
+by Neil Ghani and Alexander Kurz, although I have repackaged it a
+bit for simplicity and to suit my purposes in later posts.</p>
 
-<p>I’m going to use 
-<a href="http://wiki.portal.chalmers.se/agda/pmwiki.php">Agda</a> style notation
-to illustrate these ideas, but I think what I say should be clear
-enough to anyone with some functional programming experience. 
-Everything here is relatively easy to translate into any other 
-modern functional language like Scala, OCaml or Haskell.</p>
+<p>I’ll be giving the code samples in
+<a href="http://wiki.portal.chalmers.se/agda/pmwiki.php">Agda</a> since it is so
+simple and concise, although I think what I say should be reasonably
+clear to anyone with some functional programming experience.
+Everything here is relatively easy to translate into any other modern
+functional language such as Scala, OCaml or Haskell.</p>
 
-<p>So, let’s start with a basic definition of a list. Notice I am not
-taking advantage of infix notational sugaring here, and simply using
-the standard nil/cons approach.  The reason will become clear
-shortly.</p>
+<p>Let’s get started!</p>
+
+<!--more-->
+
+<p>As usual with this kind of thing, it pays to work out the low
+dimensional examples so that we can see exactly what we are trying to
+generalize.  So, then, what is a zero dimensional tree?  Well, we
+don’t have too many choices: the only really meaningful geometric
+objects around in dimension zero are points.  </p>
+
+<p>But just as lists and trees can be labelled with elements of some type
+(they are <em>type constructors</em>) we’re going to want to label our points
+with elements of some type.  With that in mind, the following definition
+should serve our purposes:</p>
 
 <div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
 <span class="line-number">2</span>
 <span class="line-number">3</span>
-</pre></td><td class="code"><pre><code class="agda"><span class="line">  <span class="kr">data</span> List <span class="o">(</span>A <span class="ow">:</span> <span class="kt">Set</span><span class="o">)</span> <span class="ow">:</span> <span class="kt">Set</span> <span class="kr">where</span>
-</span><span class="line">    <span class="nf">nil</span>  <span class="ow">:</span>              List A
-</span><span class="line">    <span class="nf">cons</span> <span class="ow">:</span> A <span class="ow">→</span> List A <span class="ow">→</span> List A
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class="agda"><span class="line">  <span class="kr">data</span> Point <span class="o">(</span>A <span class="ow">:</span> <span class="kt">Set</span><span class="o">)</span> <span class="ow">:</span> <span class="kt">Set</span> <span class="kr">where</span>
+</span><span class="line">    <span class="nf">pt</span> <span class="ow">:</span> A <span class="ow">→</span> Pt A
+</span><span class="line">
+</span><span class="line">  <span class="nf">samplePoint</span> <span class="ow">:</span> Point ℕ
+</span><span class="line">  samplePoint <span class="ow">=</span> pt <span class="mi">4</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<p>Now let’s take a sample term here, and try to give it a nice
-geometric interpretation.  Here is my term:</p>
+<p>Now, astute readers will notice that this type is exceedingly boring since
+<code>Point A</code> is clearly isomorphic to <code>A</code> itself.  Nevertheless, I’m going
+to keep it around since it’s useful for making the pattern clear.</p>
+
+<p>If we were to draw a picture of an element of <code>Point ℕ</code>, like the
+one in the code above, it would just look like this:</p>
+
+<p><img class="center" src="http://ericfinster.github.io/images/hdts/point.png" /></p>
+
+<p>So, moving on then, it probably won’t surprise you to learn that a
+one-dimensional tree is just a list.  Here’s the definition I’m
+going to use for lists:</p>
 
 <div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
 <span class="line-number">2</span>
-</pre></td><td class="code"><pre><code class="agda"><span class="line">  <span class="nf">list</span> <span class="ow">:</span> List ℕ
-</span><span class="line">  list <span class="ow">=</span> cons <span class="mi">3</span> <span class="o">(</span>cons <span class="mi">1</span> <span class="o">(</span>cons <span class="mi">2</span> nil<span class="o">))</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+</pre></td><td class="code"><pre><code class="agda"><span class="line">  <span class="kr">data</span> List <span class="o">(</span>A <span class="ow">:</span> <span class="kt">Set</span><span class="o">)</span> <span class="ow">:</span> <span class="kt">Set</span> <span class="kr">where</span>
+</span><span class="line">    <span class="nf">nil</span>  <span class="ow">:</span>                      List A
+</span><span class="line">    <span class="nf">cons</span> <span class="ow">:</span> A <span class="ow">→</span> Point <span class="o">(</span>List A<span class="o">)</span> <span class="ow">→</span> List A
+</span><span class="line">
+</span><span class="line">  <span class="nf">sampleList</span> <span class="ow">:</span> List ℕ
+</span><span class="line">  sampleList <span class="ow">=</span> cons <span class="mi">3</span> <span class="o">(</span>pt <span class="o">(</span>cons <span class="mi">1</span> <span class="o">(</span>pt <span class="o">(</span>cons <span class="mi">2</span> <span class="o">(</span>pt nil<span class="o">)))))</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<p>To be continued …</p>
+<p>As you can see, I’ve done something sneaky: instead of the usual
+definition of <code>cons</code>, I’ve stuck in that <code>Point</code> constructor from
+above.  Since <code>Point (List A) = List A</code>, nothing has really 
+changed, except that we’re being a bit more verbose.  Now let’s
+look at the corresponding drawing for our little example list.  It
+looks something like this:</p>
+
+<p><img class="center" src="http://ericfinster.github.io/images/hdts/list.png" /></p>
+
+<p>The little grey boxes here are meant to indicate that after a 
+piece of data introduced by the <code>cons</code> constructor, the remaining
+“branches” of our 1-dimensional tree are being organized by the 
+<code>Point</code> datatype.  Since this type constructor is not very
+interesting, we always have a unique branch just like we would
+expect.</p>
+
+<p>I’ll just note that to be really precise, the boxes should extend over
+the entire tail of the list (as is shown by the parentheses in our
+term).  But this will be harder to draw in higher dimensions, so I’m
+just going to content myself with what’s above.  </p>
+
+<p>Okay, so far so good.  Let’s move on to trees, or what I’m going to
+call 2-trees.  No surprises with the definition, it’s just as usual:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+</pre></td><td class="code"><pre><code class="agda"><span class="line">  <span class="kr">data</span> Tree <span class="o">(</span>A <span class="ow">:</span> <span class="kt">Set</span><span class="o">)</span> <span class="ow">:</span> <span class="kt">Set</span> <span class="kr">where</span>
+</span><span class="line">    <span class="nf">leaf</span> <span class="ow">:</span>                     Tree A
+</span><span class="line">    <span class="nf">node</span> <span class="ow">:</span> A <span class="ow">→</span> List <span class="o">(</span>Tree A<span class="o">)</span> <span class="ow">→</span> Tree A
+</span><span class="line">
+</span><span class="line">  <span class="nf">sampleTree</span> <span class="ow">:</span> Tree ℕ
+</span><span class="line">  sampleTree <span class="ow">=</span>
+</span><span class="line">    node <span class="mi">9</span> <span class="o">(</span>cons <span class="o">(</span>node <span class="mi">8</span> <span class="o">(</span>cons leaf <span class="o">(</span>pt <span class="o">(</span>cons leaf <span class="o">(</span>pt nil<span class="o">)))))</span>
+</span><span class="line">       <span class="o">(</span>pt <span class="o">(</span>cons <span class="o">(</span>node <span class="mi">4</span> nil<span class="o">)</span>
+</span><span class="line">       <span class="o">(</span>pt <span class="o">(</span>cons <span class="o">(</span>node <span class="mi">2</span> <span class="o">(</span>cons leaf <span class="o">(</span>pt nil<span class="o">)))</span>
+</span><span class="line">       <span class="o">(</span>pt nil<span class="o">)))))</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>At least now the picture is slightly more interesting:</p>
+
+<p><img class="center" src="http://ericfinster.github.io/images/hdts/2tree.png" /></p>
+
+<p>Notice how this time it’s the <code>List</code> type constructor which controls
+how our tree is allowed to branch.  Because we are allowed to have a
+1-dimensional family of branches, the data itself is organized in
+2-dimensions.  Moreover, it’s useful to point out that our 2-trees are
+<em>planar</em> in the sense that they pick up a canonical ordering of their
+branches.</p>
+
+<p>I hope I have now made it blindingly obvious how to continue on from
+here.  A 3-tree, for example, will just have its branches organized by
+a 2-tree.  And so on and so forth.  Using an indexed inductive type
+(or GADT, if you prefer) we can get all the dimensions at once:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+</pre></td><td class="code"><pre><code class="agda"><span class="line">  <span class="kr">data</span> Tree <span class="o">(</span>A <span class="ow">:</span> <span class="kt">Set</span><span class="o">)</span> <span class="ow">:</span> ℕ <span class="ow">→</span> <span class="kt">Set</span> <span class="kr">where</span>
+</span><span class="line">    <span class="nf">pt</span> <span class="ow">:</span> A <span class="ow">→</span> Tree A <span class="mi">0</span>
+</span><span class="line">    <span class="nf">leaf</span> <span class="ow">:</span> <span class="o">{</span>n <span class="ow">:</span> ℕ<span class="o">}</span> <span class="ow">→</span> Tree A <span class="o">(</span>suc n<span class="o">)</span>
+</span><span class="line">    <span class="nf">node</span> <span class="ow">:</span> <span class="o">{</span>n <span class="ow">:</span> ℕ<span class="o">}</span> <span class="ow">→</span> A <span class="ow">→</span> Tree <span class="o">(</span>Tree A <span class="o">(</span>suc n<span class="o">))</span> n <span class="ow">→</span> Tree A <span class="o">(</span>suc n<span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Not surprisingly, the notation for terms starts to get more and more
+unwieldy as you go higher and higher in dimension, but just to give an
+example, here is a 3-tree:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+</pre></td><td class="code"><pre><code class="agda"><span class="line">  <span class="nf">sampleTree</span> <span class="ow">:</span> Tree <span class="mi">3</span> ℕ
+</span><span class="line">  sampleTree <span class="ow">=</span> node <span class="mi">6</span>
+</span><span class="line">               <span class="o">(</span>node
+</span><span class="line">                <span class="o">(</span>node <span class="mi">12</span>
+</span><span class="line">                 <span class="o">(</span>node leaf
+</span><span class="line">                  <span class="o">(</span>node <span class="o">(</span>node leaf <span class="o">(</span>node leaf <span class="o">(</span>pt leaf<span class="o">)))</span>
+</span><span class="line">                   <span class="o">(</span>pt <span class="o">(</span>node <span class="o">(</span>node leaf <span class="o">(</span>node leaf <span class="o">(</span>pt leaf<span class="o">)))</span> <span class="o">(</span>pt leaf<span class="o">))))))</span>
+</span><span class="line">                <span class="o">(</span>node
+</span><span class="line">                 <span class="o">(</span>node <span class="o">(</span>node <span class="mi">7</span> <span class="o">(</span>node leaf <span class="o">(</span>node leaf <span class="o">(</span>pt leaf<span class="o">))))</span>
+</span><span class="line">                  <span class="o">(</span>node leaf <span class="o">(</span>pt leaf<span class="o">)))</span>
+</span><span class="line">                 <span class="o">(</span>pt
+</span><span class="line">                  <span class="o">(</span>node
+</span><span class="line">                   <span class="o">(</span>node
+</span><span class="line">                    <span class="o">(</span>node <span class="mi">4</span>
+</span><span class="line">                     <span class="o">(</span>node leaf <span class="o">(</span>node <span class="o">(</span>node leaf <span class="o">(</span>node leaf <span class="o">(</span>pt leaf<span class="o">)))</span> <span class="o">(</span>pt leaf<span class="o">))))</span>
+</span><span class="line">                    <span class="o">(</span>node leaf <span class="o">(</span>pt leaf<span class="o">)))</span>
+</span><span class="line">                   <span class="o">(</span>pt leaf<span class="o">)))))</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>And here’s what it looks like:</p>
+
+<p><img class="center" src="http://ericfinster.github.io/images/hdts/3tree.png" /></p>
+
+<p>In the next couple of posts, I’ll start to develop some tools
+for working with these types.  Then from there I’ll try to explain
+what all this has to do with higher category theory, and how
+one might put these objects to good use.</p>
 ]]></content>
   </entry>
   
