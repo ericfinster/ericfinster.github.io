@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1188.5" height="193.0" viewBox="-1.0 10.0 1188.5 193.0" version="1.1">
+  <g id="eck-hilt-5-grp">
+    <g transform="translate(19.0,139.5)" class="panel-dim-0">
+      <g>
+	<rect id="cell-1253003708" class="expr-var" x="-19.0" y="-66.0" rx="4" ry="4" width="43.0" height="66.0" style="stroke: black; stroke-width: 2; fill: white">
+          <desc xmlns:opetopic="http://opetopic.net/opetopic">
+            <opetopic:face>1253003708</opetopic:face>
+          </desc>
+	</rect>
+	<text id="cell-label-1253003708" x="7.0" y="-7.0" font-family="Lato" font-size="14pt" pointer-events="none">x</text>
+	<g>
+          <rect id="cell-1008677874" class="expr-var external" x="-12.0" y="-57.0" rx="4" ry="4" width="24.0" height="31.0" style="stroke: black; stroke-width: 2; fill: white">
+            <desc xmlns:opetopic="http://opetopic.net/opetopic">
+              <opetopic:face>1008677874</opetopic:face>
+            </desc>
+          </rect>
+          <text id="cell-label-1008677874" x="-5.0" y="-36.0" font-family="Lato" font-size="14pt" pointer-events="none">x</text>
+	</g>
+      </g>
+    </g>
+    <g transform="translate(106.0,174.5)" class="panel-dim-1">
+      <g>
+	<rect id="cell-613118900" class="expr-bdry-thin" x="-43.0" y="-136.0" rx="4" ry="4" width="171.0" height="136.0" style="stroke: black; stroke-width: 2; fill: white">
+          <desc xmlns:opetopic="http://opetopic.net/opetopic">
+            <opetopic:face>1008677874</opetopic:face>
+            <opetopic:face>613118900</opetopic:face>
+            <opetopic:face>1253003708</opetopic:face>
+          </desc>
+	</rect>
+	<text id="cell-label-613118900" x="91.0" y="-7.0" font-family="Lato" font-size="14pt" pointer-events="none">id-x</text>
+	<g>
+          <rect id="cell-1062813994" class="expr-bdry-thin" x="-36.0" y="-127.0" rx="4" ry="4" width="152.0" height="101.0" style="stroke: black; stroke-width: 2; fill: white">
+            <desc xmlns:opetopic="http://opetopic.net/opetopic">
+              <opetopic:face>1008677874</opetopic:face>
+              <opetopic:face>1062813994</opetopic:face>
+              <opetopic:face>1253003708</opetopic:face>
+            </desc>
+          </rect>
+          <text id="cell-label-1062813994" x="17.0" y="-33.0" font-family="Lato" font-size="14pt" pointer-events="none">(id-x o id-x)</text>
+          <g>
+            <rect id="cell-2093305059" class="expr-bdry-thin" x="-29.0" y="-118.0" rx="4" ry="4" width="133.0" height="66.0" style="stroke: black; stroke-width: 2; fill: white">
+              <desc xmlns:opetopic="http://opetopic.net/opetopic">
+		<opetopic:face>1008677874</opetopic:face>
+		<opetopic:face>2093305059</opetopic:face>
+		<opetopic:face>1253003708</opetopic:face>
+              </desc>
+            </rect>
+            <text id="cell-label-2093305059" x="5.0" y="-59.0" font-family="Lato" font-size="14pt" pointer-events="none">(id-x o id-x)</text>
+            <g>
+              <rect id="cell-2101021459" class="expr-bdry-thin external" x="-22.0" y="-109.0" rx="4" ry="4" width="44.0" height="31.0" style="stroke: black; stroke-width: 2; fill: white">
+		<desc xmlns:opetopic="http://opetopic.net/opetopic">
+                  <opetopic:face>1008677874</opetopic:face>
+                  <opetopic:face>2101021459</opetopic:face>
+                  <opetopic:face>1253003708</opetopic:face>
+		</desc>
+              </rect>
+              <text id="cell-label-2101021459" x="-15.0" y="-88.0" font-family="Lato" font-size="14pt" pointer-events="none">id-x</text>
+            </g>
+          </g>
+	</g>
+	<path id="edge-1008677874" d="M 0.0 -146.0 V -109.0" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+	<path id="edge-1253003708" d="M 0.0 -78.0 V 10.0" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+      </g>
+    </g>
+    <g transform="translate(385.5,193.0)" class="panel-dim-2">
+      <g>
+	<rect id="cell-794053792" class="expr-bdry" x="-131.5" y="-173.0" rx="4" ry="4" width="374.5" height="173.0" style="stroke: black; stroke-width: 2; fill: white">
+          <desc xmlns:opetopic="http://opetopic.net/opetopic">
+            <opetopic:face>1008677874</opetopic:face>
+            <opetopic:face>2101021459</opetopic:face>
+            <opetopic:face>1253003708</opetopic:face>
+            <opetopic:face>794053792</opetopic:face>
+            <opetopic:face>613118900</opetopic:face>
+          </desc>
+	</rect>
+	<text id="cell-label-794053792" x="183.0" y="-7.0" font-family="Lato" font-size="14pt" pointer-events="none">(b o a)</text>
+	<g>
+          <rect id="cell-1198699686" class="expr-bdry-thin external" x="-57.0" y="-164.0" rx="4" ry="4" width="114.0" height="31.0" style="stroke: black; stroke-width: 2; fill: white">
+            <desc xmlns:opetopic="http://opetopic.net/opetopic">
+              <opetopic:face>1008677874</opetopic:face>
+              <opetopic:face>2101021459</opetopic:face>
+              <opetopic:face>1253003708</opetopic:face>
+              <opetopic:face>1198699686</opetopic:face>
+              <opetopic:face>2093305059</opetopic:face>
+            </desc>
+          </rect>
+          <text id="cell-label-1198699686" x="-50.0" y="-143.0" font-family="Lato" font-size="14pt" pointer-events="none">unit-left-id-x</text>
+          <rect id="cell-1001530095" class="expr-bdry" x="-124.5" y="-128.0" rx="4" ry="4" width="355.5" height="66.0" style="stroke: black; stroke-width: 2; fill: white">
+            <desc xmlns:opetopic="http://opetopic.net/opetopic">
+              <opetopic:face>1008677874</opetopic:face>
+              <opetopic:face>2093305059</opetopic:face>
+              <opetopic:face>1253003708</opetopic:face>
+              <opetopic:face>1001530095</opetopic:face>
+              <opetopic:face>1062813994</opetopic:face>
+            </desc>
+          </rect>
+          <text id="cell-label-1001530095" x="5.0" y="-69.0" font-family="Lato" font-size="14pt" pointer-events="none">((id-id-x o a) || (b o id-id-x))</text>
+          <g>
+            <rect id="cell-739481479" class="expr-bdry external" x="-117.5" y="-119.0" rx="4" ry="4" width="235.0" height="31.0" style="stroke: black; stroke-width: 2; fill: white">
+              <desc xmlns:opetopic="http://opetopic.net/opetopic">
+		<opetopic:face>1008677874</opetopic:face>
+		<opetopic:face>2093305059</opetopic:face>
+		<opetopic:face>1253003708</opetopic:face>
+		<opetopic:face>739481479</opetopic:face>
+		<opetopic:face>1062813994</opetopic:face>
+              </desc>
+            </rect>
+            <text id="cell-label-739481479" x="-110.5" y="-98.0" font-family="Lato" font-size="14pt" pointer-events="none">((id-id-x || b) o (a || id-id-x))</text>
+          </g>
+          <rect id="cell-977352364" class="expr-bdry-thin external" x="-94.5" y="-57.0" rx="4" ry="4" width="189.0" height="31.0" style="stroke: black; stroke-width: 2; fill: white">
+            <desc xmlns:opetopic="http://opetopic.net/opetopic">
+              <opetopic:face>1008677874</opetopic:face>
+              <opetopic:face>1062813994</opetopic:face>
+              <opetopic:face>1253003708</opetopic:face>
+              <opetopic:face>977352364</opetopic:face>
+              <opetopic:face>613118900</opetopic:face>
+            </desc>
+          </rect>
+          <text id="cell-label-977352364" x="-87.5" y="-36.0" font-family="Lato" font-size="14pt" pointer-events="none">inv-left-unit-right-id-x</text>
+	</g>
+	<path id="edge-2101021459" d="M 0.0 -183.0 V -164.0" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+	<path id="edge-2093305059" d="M 0.0 -133.0 V -119.0" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+	<path id="edge-1062813994" d="M 0.0 -88.0 V -57.0" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+	<path id="edge-613118900" d="M 0.0 -26.0 V 10.0" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+      </g>
+    </g>
+    <g transform="translate(811.5,157.5)" class="panel-dim-3">
+      <g>
+	<rect id="cell-258765845" class="expr-bdry-thin" x="-163.0" y="-102.0" rx="4" ry="4" width="331.0" height="102.0" style="stroke: black; stroke-width: 2; fill: white">
+          <desc xmlns:opetopic="http://opetopic.net/opetopic">
+            <opetopic:face>1008677874</opetopic:face>
+            <opetopic:face>2101021459</opetopic:face>
+            <opetopic:face>1253003708</opetopic:face>
+            <opetopic:face>1198699686</opetopic:face>
+            <opetopic:face>2093305059</opetopic:face>
+            <opetopic:face>739481479</opetopic:face>
+            <opetopic:face>1062813994</opetopic:face>
+            <opetopic:face>977352364</opetopic:face>
+            <opetopic:face>613118900</opetopic:face>
+            <opetopic:face>258765845</opetopic:face>
+            <opetopic:face>794053792</opetopic:face>
+          </desc>
+	</rect>
+	<text id="cell-label-258765845" x="53.0" y="-7.0" font-family="Lato" font-size="14pt" pointer-events="none">univ-5-(b o a)</text>
+	<g>
+          <rect id="cell-423171740" class="expr-bdry-thin external" x="-141.0" y="-93.0" rx="4" ry="4" width="282.0" height="31.0" style="stroke: black; stroke-width: 2; fill: white">
+            <desc xmlns:opetopic="http://opetopic.net/opetopic">
+              <opetopic:face>1008677874</opetopic:face>
+              <opetopic:face>2093305059</opetopic:face>
+              <opetopic:face>1253003708</opetopic:face>
+              <opetopic:face>739481479</opetopic:face>
+              <opetopic:face>1062813994</opetopic:face>
+              <opetopic:face>423171740</opetopic:face>
+              <opetopic:face>1001530095</opetopic:face>
+            </desc>
+          </rect>
+          <text id="cell-label-423171740" x="-134.0" y="-72.0" font-family="Lato" font-size="14pt" pointer-events="none">interchange-(a, id-id-x, id-id-x, b)</text>
+          <rect id="cell-1929078963" class="expr-bdry-thin external" x="-61.0" y="-57.0" rx="4" ry="4" width="122.0" height="31.0" style="stroke: black; stroke-width: 2; fill: white">
+            <desc xmlns:opetopic="http://opetopic.net/opetopic">
+              <opetopic:face>1008677874</opetopic:face>
+              <opetopic:face>2101021459</opetopic:face>
+              <opetopic:face>1253003708</opetopic:face>
+              <opetopic:face>1198699686</opetopic:face>
+              <opetopic:face>2093305059</opetopic:face>
+              <opetopic:face>1001530095</opetopic:face>
+              <opetopic:face>1062813994</opetopic:face>
+              <opetopic:face>977352364</opetopic:face>
+              <opetopic:face>613118900</opetopic:face>
+              <opetopic:face>1929078963</opetopic:face>
+              <opetopic:face>794053792</opetopic:face>
+            </desc>
+          </rect>
+          <text id="cell-label-1929078963" x="-54.0" y="-36.0" font-family="Lato" font-size="14pt" pointer-events="none">univ-6-(b o a)</text>
+	</g>
+	<path id="edge-1198699686" d="M -151.0 -112.0 V -45.5 A 4.0 4.0 0 0 0 -147.0 -41.5 H -61.0" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+	<path id="edge-739481479" d="M 0.0 -112.0 V -93.0" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+	<path id="edge-1001530095" d="M 0.0 -62.0 V -57.0" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+	<path id="edge-977352364" d="M 151.0 -112.0 V -45.5 A 4.0 4.0 0 0 1 147.0 -41.5 H 61.0" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+	<path id="edge-794053792" d="M 0.0 -26.0 V 10.0" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+      </g>
+    </g>
+    <g transform="translate(1084.0,122.0)" class="panel-dim-4">
+      <g>
+	<rect id="cell-1469512382" class="expr-filler external" x="-76.5" y="-31.0" rx="4" ry="4" width="153.0" height="31.0" style="stroke: black; stroke-width: 2; fill: white">
+          <desc xmlns:opetopic="http://opetopic.net/opetopic">
+            <opetopic:face>1008677874</opetopic:face>
+            <opetopic:face>2101021459</opetopic:face>
+            <opetopic:face>1253003708</opetopic:face>
+            <opetopic:face>1198699686</opetopic:face>
+            <opetopic:face>2093305059</opetopic:face>
+            <opetopic:face>739481479</opetopic:face>
+            <opetopic:face>1062813994</opetopic:face>
+            <opetopic:face>977352364</opetopic:face>
+            <opetopic:face>613118900</opetopic:face>
+            <opetopic:face>423171740</opetopic:face>
+            <opetopic:face>1001530095</opetopic:face>
+            <opetopic:face>1929078963</opetopic:face>
+            <opetopic:face>794053792</opetopic:face>
+            <opetopic:face>1469512382</opetopic:face>
+            <opetopic:face>258765845</opetopic:face>
+          </desc>
+	</rect>
+	<text id="cell-label-1469512382" x="-69.5" y="-10.0" font-family="Lato" font-size="14pt" pointer-events="none">def-univ-6-(b o a)</text>
+	<path id="edge-423171740" d="M -85.5 -41.0 V -19.5 A 4.0 4.0 0 0 0 -81.5 -15.5 H -76.5" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+	<path id="edge-1929078963" d="M 85.5 -41.0 V -19.5 A 4.0 4.0 0 0 1 81.5 -15.5 H 76.5" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+	<path id="edge-258765845" d="M 0.0 0.0 V 10.0" class="orch-edge" style="stroke: black; fill: none; stroke-width: 2; pointer-events: none;"/>
+      </g>
+    </g>
+  </g>
+</svg>

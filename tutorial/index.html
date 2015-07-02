@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Opetopes - An Introduction</title>
+
+    <meta name="description" content="A tutorial about opetopes">
+    <meta name="author" content="Eric Finster">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="tutorial/css/reveal.css">
+    <link rel="stylesheet" href="tutorial/css/opetopic.css">
+    <link rel="stylesheet" href="tutorial/css/theme/solarized.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="tutorial/lib/css/zenburn.css">
+
+    <!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+
+	<section>
+	  <h1>Opetopic Diagrams</h1>
+	  <h3>HDRA 2015</h3>
+	  <h6>Eric Finster</h6>
+	</section>
+
+	<section>
+	  <h4>Opetopic Diagrams</h4>
+	  <svg id="diagrams-canvas" width="660" height="230"></svg>
+	  <div class="slide-div">
+	    <p id="diags-1">Above is an example of an <em>opetopic diagram</em></p>
+	    <p id="diags-2" style="display: none">Each "component" corresponds to a dimension</p>
+	    <p id="diags-3" style="display: none">Each "box" corresponds to a <em>face</em> in that dimension.</p>
+	  </div>
+	</section>
+
+	<section>
+	  <h4>The Zoom Relation</h4>
+	  <svg id="zoom-canvas" width="656.5" height="174.0"></svg>
+	  <div class="slide-div">
+	    <p id="zoom-1">The components are not indenpendent of one another</p>
+	    <p id="zoom-2" style="display: none">Let's have a closer look at two adjacent dimensions</p>
+	    <p id="zoom-3" style="display: none">I'll remove the edges on the left and the boxes on the right.</p>
+	    <p id="zoom-4" style="display: none">By adding labels, we see that these are both representations of the same tree</p>
+	    <p id="zoom-5" style="display: none">This relationship holds between the boxes and edges of every adjacent component</p>
+	    <p id="zoom-6" style="display: none">
+	      Hence each <em>face</em> appears exactly twice in the picture: once
+	      as a box in its proper dimension, and once as an edge in the next
+	      dimension.
+	    </p>
+	  </div>
+	</section>
+
+	<section>
+	  <h4>Faces</h4>
+	  <svg id="faces-canvas" width="656.5" height="174.0"></svg>
+	</section>
+
+	<section>
+	  <h4>Proof Theory</h4>
+	  <svg id="proofs-canvas" width="350.0" height="200.0"></svg>
+	  <div class="slide-div">
+	    <p id="proofs-1">We'll try to set up a kind of "proof theory" of diagrams</p>
+	  </div>
+	</section>
+
+	<section>
+	  <h4>Eckmann Hilton (Step 1)</h4>
+	  <svg id="eck-1-canvas" width="960" height="406.0"></svg>
+	</section>
+
+	<section>
+	  <h4>Eckmann Hilton (Step 2)</h4>
+	  <svg id="eck-2-canvas" width="960" height="406.0"></svg>
+	</section>
+
+	<section>
+	  <h4>Eckmann Hilton (Step 3)</h4>
+	  <svg id="eck-3-canvas" width="960" height="406.0"></svg>
+	</section>
+
+	<section>
+	  <h4>Eckmann Hilton (Step 4)</h4>
+	  <svg id="eck-4-canvas" width="960" height="406.0"></svg>
+	</section>
+
+	<section>
+	  <h4>Eckmann Hilton (Step 5)</h4>
+	  <svg id="eck-5-canvas" width="960" height="406.0"></svg>
+	</section>
+
+	<section>
+	  <h4>Eckmann Hilton (Step 6)</h4>
+	  <svg id="eck-6-canvas" width="960" height="406.0"></svg>
+	</section>
+
+      </div>
+    </div>
+
+    <script src="tutorial/lib/js/head.min.js"></script>
+    <script src="tutorial/js/reveal.js"></script>
+    <script src="tutorial/js/jquery-1.11.3.min.js"></script>
+    <script src="tutorial/js/snap.svg-min.js"></script>
+    <script src="tutorial/js/opetopic.js"></script>
+
+  </body>
+</html>

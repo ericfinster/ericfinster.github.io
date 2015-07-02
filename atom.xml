@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Finster's Blog]]></title>
   <link href="http://ericfinster.github.io/atom.xml" rel="self"/>
   <link href="http://ericfinster.github.io/"/>
-  <updated>2015-02-23T00:47:59-08:00</updated>
+  <updated>2015-07-02T19:58:42+02:00</updated>
   <id>http://ericfinster.github.io/</id>
   <author>
     <name><![CDATA[Eric Finster]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Higher Dimensional Trees I - Basics]]></title>
-    <link href="http://ericfinster.github.io/blog/2015/02/21/higher-dimensional-trees-i-basics/"/>
-    <updated>2015-02-21T16:21:58-08:00</updated>
-    <id>http://ericfinster.github.io/blog/2015/02/21/higher-dimensional-trees-i-basics</id>
+    <link href="http://ericfinster.github.io/blog/2015/02/22/higher-dimensional-trees-i-basics/"/>
+    <updated>2015-02-22T01:21:58+01:00</updated>
+    <id>http://ericfinster.github.io/blog/2015/02/22/higher-dimensional-trees-i-basics</id>
     <content type="html"><![CDATA[<p>Ever since I became interested in 
 <a href="http://www.homotopytypetheory.org">homotopy type theory</a>, I’ve been 
 fascinated by the idea that we can build interesting topological (or more
@@ -216,9 +216,9 @@ one might put these objects to good use.</p>
   
   <entry>
     <title type="html"><![CDATA[Front Matter]]></title>
-    <link href="http://ericfinster.github.io/blog/2015/02/21/front-matter/"/>
-    <updated>2015-02-21T15:23:40-08:00</updated>
-    <id>http://ericfinster.github.io/blog/2015/02/21/front-matter</id>
+    <link href="http://ericfinster.github.io/blog/2015/02/22/front-matter/"/>
+    <updated>2015-02-22T00:23:40+01:00</updated>
+    <id>http://ericfinster.github.io/blog/2015/02/22/front-matter</id>
     <content type="html"><![CDATA[<p>We start with a confession: I think I have probably written this kind
 of introductory message for a nascent blog about eight times.  None of
 those ill-fated attempts still survives to my knowledge, but to be 
