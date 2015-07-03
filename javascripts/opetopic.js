@@ -71,7 +71,7 @@
 
 	var init = function() {
 
-    	    Snap.load("tutorial/svg/basics.svg", function (f) {
+    	    Snap.load("svg/basics.svg", function (f) {
     	  	snap.append(f);
     	    });
 
@@ -121,7 +121,7 @@
 	var snap = Snap('#zoom-canvas');
 
 	var init = function() {
-	    loadOpetope(snap, "tutorial/svg/gentil.svg", false, false);
+	    loadOpetope(snap, "svg/gentil.svg", false, false);
 	};
 
 	var frameCmds = {
@@ -201,7 +201,7 @@
     	var snap = Snap('#faces-canvas');
 
     	var init = function() {
-    	    loadOpetope(snap, "tutorial/svg/gentil.svg", true, false);
+    	    loadOpetope(snap, "svg/gentil.svg", true, false);
     	};
 
 	var highlightFace = function(id) {
@@ -255,7 +255,7 @@
     	var snap = Snap('#proofs-canvas');
 
     	var init = function() {
-    	    loadOpetope(snap, "tutorial/svg/proofs.svg", false, true, function() {
+    	    loadOpetope(snap, "svg/proofs.svg", false, true, function() {
 	    });
     	};
 
@@ -276,7 +276,7 @@
 	
     	var init = function() {
 
-    	    loadOpetope(snap, 'tutorial/svg/eck-hilt-' + i + '.svg', true, true, function() {
+    	    loadOpetope(snap, 'svg/eck-hilt-' + i + '.svg', true, true, function() {
 
 		snap.select('#cell-' + ucell).
 		    removeClass('expr-bdry-thin').
