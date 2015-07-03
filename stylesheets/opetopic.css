@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.slide-div {
+    width: 700;
+    height: 300;
+}
+
+.slide-p {
+    text-align: center;
+    margin: auto;
+}
+
+/* .expr-cell-var { */
+/*     stroke: black; */
+/*     stroke-width: 2px; */
+/*     fill: khaki; */
+/* } */
