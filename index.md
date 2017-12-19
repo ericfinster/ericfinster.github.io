@@ -7,11 +7,22 @@ layout: default
 <img class="profile-picture" src="files/eric.jpg">
 
 Hi!  I'm Eric Finster.  I'm a mathematician with the
-COQHott ERC project.
+[CoqHoTT](http://coqhott.gforge.inria.fr/) ERC project.
 
-## Research Interest
+I was born in California, studied in Virginia and presently
+live just outside Paris.
 
-I am mostly interested in higher category theory, and homotopy type theory.
+## Research Interests
+
+My main interests are higher category theory and homotopy theory.  I
+am particularly interested in the axiomatic approach to homotopy
+theory provided by [Homotopy Type
+Theory](http://www.homotopytypetheory.org).  Recently I've been
+working a lot on the relationship between &infin;-topos theory and
+Goodwillie's Calculus of Functors.
+
+I'm also the author of a [site](http://opetopic.net) all about the
+opetopes!
 
 ## Publications
 
@@ -24,3 +35,6 @@ I am mostly interested in higher category theory, and homotopy type theory.
 1. A Generalized Blakers-Massey Theorem [arXiv](https://arxiv.org/abs/1703.09050)
 2. Goodwillie's Calculus of Functors and Higher Topos Theory [arXiv](https://arxiv.org/abs/1703.09632)
 
+## Thesis
+
+1. Stabilization of Homotopy Limits [pdf](files/thesis.pdf)
