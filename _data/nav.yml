@@ -1,0 +1,8 @@
+- name: "Contact"
+  link: "contact"
+
+- name: "CV"
+  link: "files/cv.pdf"
+
+- name: "About"
+  link: "/"
