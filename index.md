@@ -34,7 +34,7 @@ opetopes!
 
 1. A Generalized Blakers-Massey Theorem [arXiv](https://arxiv.org/abs/1703.09050)
 2. Goodwillie's Calculus of Functors and Higher Topos Theory [arXiv](https://arxiv.org/abs/1703.09632)
-3. Opetopes and Higher Dimensional Trees [pdf](files/ops-and-trees.pdf)
+3. Implementing the Opetopes [pdf](files/impl-ops.pdf)
 
 ## Thesis
 
