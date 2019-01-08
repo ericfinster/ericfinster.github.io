@@ -43,7 +43,7 @@ opetopes!
 2. Notes on a Definition of Higher Structure [pdf](files/huadtt.pdf)/[video](https://www.youtube.com/watch?v=hlCVHVtAlqQ)/[github](https://github.com/ericfinster/higher-alg)
 3. Opetopic Grammars [pdf](files/op-grammars.pdf)
 4. Implementing the Opetopes [pdf](files/impl-ops.pdf)
-5. Expanded CNRS Research Proposal [pdf](files/proposal-long.pdf}
+5. Expanded CNRS Research Proposal [pdf](files/proposal-long.pdf)
 
 ## Thesis
 
