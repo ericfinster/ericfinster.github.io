@@ -40,12 +40,14 @@ opetopes!
    * LICS Proceedings 2017 [pdf](files/catt.pdf)/[journal](https://ieeexplore.ieee.org/document/8005124)
 5. Goodwillie's Calculus of Functors and Higher Topos Theory 
    * Journal of Topology 2018 [arXiv](https://arxiv.org/abs/1703.09632)/[journal](https://londmathsoc.onlinelibrary.wiley.com/doi/pdf/10.1112/topo.12082)
+6. A Generalized Blakers-Massey Theorem
+   * Journal of Topology 2020 [arXiv](https://arxiv.org/abs/1703.09050)/[journal](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/topo.12163)
 
 ## Notes, Preprints and Work in Progress
 
-1. A Generalized Blakers-Massey Theorem [arXiv](https://arxiv.org/abs/1703.09050)
-2. Opetopic Grammars [pdf](files/op-grammars.pdf)
-3. Implementing the Opetopes [pdf](files/impl-ops.pdf)
+1. Types are Internal oo-Groupoids [pdf](files/type-int-grpds.pdf)/[cmu seminar notes](files/cmu-hott-seminar-notes.pdf)
+2. A Type Theory for Strictly Unital oo-Categories [arXiv](https://arxiv.org/abs/2007.08307)
+3. Higher Sheaves and Left-Exact Localizations of oo-Topoi [arXiv](https://arxiv.org/abs/2101.02791)
 
 ## Thesis
 
