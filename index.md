@@ -42,12 +42,14 @@ opetopes!
    * Journal of Topology 2018 [arXiv](https://arxiv.org/abs/1703.09632)/[journal](https://londmathsoc.onlinelibrary.wiley.com/doi/pdf/10.1112/topo.12082)
 6. A Generalized Blakers-Massey Theorem
    * Journal of Topology 2020 [arXiv](https://arxiv.org/abs/1703.09050)/[journal](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/topo.12163)
+7. Types are Internal oo-Groupoids
+   * LICS Proceedings 2021 [pdf](files/type-int-grpds.pdf)/[cmu seminar notes](files/cmu-hott-seminar-notes.pdf)
 
 ## Notes, Preprints and Work in Progress
 
-1. Types are Internal oo-Groupoids [pdf](files/type-int-grpds.pdf)/[cmu seminar notes](files/cmu-hott-seminar-notes.pdf)
-2. A Type Theory for Strictly Unital oo-Categories [arXiv](https://arxiv.org/abs/2007.08307)
-3. Higher Sheaves and Left-Exact Localizations of oo-Topoi [arXiv](https://arxiv.org/abs/2101.02791)
+1. A Type Theory for Strictly Unital oo-Categories [arXiv](https://arxiv.org/abs/2007.08307)
+2. Higher Sheaves and Left-Exact Localizations of oo-Topoi [arXiv](https://arxiv.org/abs/2101.02791)
+3. A Note on Left Exact Modalities in Type Theory [note](files/lmhtt.pdf)
 
 ## Thesis
 
