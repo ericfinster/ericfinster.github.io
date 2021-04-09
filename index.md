@@ -49,7 +49,7 @@ opetopes!
 
 1. A Type Theory for Strictly Unital oo-Categories [arXiv](https://arxiv.org/abs/2007.08307)
 2. Higher Sheaves and Left-Exact Localizations of oo-Topoi [arXiv](https://arxiv.org/abs/2101.02791)
-3. A Note on Left Exact Modalities in Type Theory [note](files/lmhtt.pdf)
+3. A Note on Left Exact Modalities in Type Theory [pdf](files/lmhtt.pdf)
 
 ## Thesis
 
