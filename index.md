@@ -58,7 +58,13 @@ opetopes.
 5. Weak Structures from Strict Ones [youtube](https://www.youtube.com/watch?v=wz3h59rnhOU)
 6. Higher Algebra in Computer Science [youtube](https://www.youtube.com/watch?v=pD8M4u30dHM)
 
-## Thesis
+## Code
+
+1. [opetopic](https://github.com/ericfinster/opetopic) - A web-based opetope editor
+2. [opetopic-types](https://github.com/ericfinster/opetopic-types) - A library for opetopic types and higher structures in Agda
+3. [catt.io](https://github.com/ericfinster/catt.io) - An implementation of a type theory for weak &omega;-categories
+
+## My Thesis
 
 1. Stabilization of Homotopy Limits [pdf](files/thesis.pdf)
    * University of Virginia, 2010
