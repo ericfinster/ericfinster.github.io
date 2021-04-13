@@ -6,27 +6,25 @@ layout: default
 
 <img class="profile-picture" src="files/eric.jpg">
 
-Hi!  I'm Eric Finster.  I'm a mathematician.  Or I'm a computer
-scientist.  It's a bit difficult for me to decide these days.
-
-I grew up in Los Angeles, studied in Charlottesville, Virginia and
-presently live in Paris.
+I am a mathematcian and computer scientist currently working as a
+researcher at the University of Cambridge. I grew up in Los Angeles,
+studied in Charlottesville, and presently live in Paris.
 
 ## Research Interests
 
 My main interests are higher category theory and homotopy theory, and
 applications of these subjects to computer science, particularly
 formal methods in software development and computer-assisted
-mathematics.
+mathematics. 
 
-I am particularly interested in the axiomatic approach to homotopy
-theory provided by [Homotopy Type
-Theory](http://www.homotopytypetheory.org).  Recently I've been
-working a lot on the relationship between &infin;-topos theory and
-Goodwillie's Calculus of Functors.
+My formal training in mathematics was in homotopy theory, and I have
+worked extensively on the connection between this area of topology the
+[theory of types](https://en.wikipedia.org/wiki/Type_theory), a
+discipline which goes by the name [Homotopy Type
+Theory](http://www.homotopytypetheory.org).
 
 I'm also the author of a [site](http://opetopic.net) all about the
-opetopes!
+opetopes.
 
 ## Publications
 
