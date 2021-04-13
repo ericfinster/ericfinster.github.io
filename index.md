@@ -56,6 +56,7 @@ opetopes.
 3. A Survey of Univalent Foundations [youtube](https://www.youtube.com/watch?v=z3IBvmrcObg)
 4. A Type Theoretic View of Goodwillie Calculus [part one](https://www.youtube.com/watch?v=bcUk4l6B8jI)/[part two](https://www.youtube.com/watch?v=xIHq6XcVEBE)
 5. Weak Structures from Strict Ones [youtube](https://www.youtube.com/watch?v=wz3h59rnhOU)
+6. Higher Algebra in Computer Science [youtube](https://www.youtube.com/watch?v=pD8M4u30dHM)
 
 ## Thesis
 
