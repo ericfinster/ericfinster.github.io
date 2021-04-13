@@ -49,6 +49,14 @@ opetopes.
 2. Higher Sheaves and Left-Exact Localizations of oo-Topoi [arXiv](https://arxiv.org/abs/2101.02791)
 3. A Note on Left Exact Modalities in Type Theory [pdf](files/lmhtt.pdf)
 
+## Videos
+
+1. Cohomology in Homotopy Type Theory [ias](https://video.ias.edu/univalent/1213/0306-EricFinster)
+2. The Calculus of Opetopes [ias](https://video.ias.edu/1213/univalent/0131-EricFinster)
+3. A Survey of Univalent Foundations [youtube](https://www.youtube.com/watch?v=z3IBvmrcObg)
+4. A Type Theoretic View of Goodwillie Calculus [part one](https://www.youtube.com/watch?v=bcUk4l6B8jI)/[part two](https://www.youtube.com/watch?v=xIHq6XcVEBE)
+5. Weak Structures from Strict Ones [youtube](https://www.youtube.com/watch?v=wz3h59rnhOU)
+
 ## Thesis
 
 1. Stabilization of Homotopy Limits [pdf](files/thesis.pdf)
