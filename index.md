@@ -46,9 +46,10 @@ opetopes.
 ## Notes, Preprints and Work in Progress
 
 1. A Type Theory for Strictly Unital oo-Categories [arXiv](https://arxiv.org/abs/2007.08307)
-2. Higher Sheaves and Left-Exact Localizations of oo-Topoi [arXiv](https://arxiv.org/abs/2101.02791)
-3. A Note on Left Exact Modalities in Type Theory [pdf](files/lmhtt.pdf)
-4. Synthetic Spectra via a Monadic and Comonadic Modality [arXiv](https://arxiv.org/abs/2102.04099)
+2. A Type Theory for Strictly Associative oo-Categories [arXiv](https://arxiv.org/abs/2109.01513)
+3. Higher Sheaves and Left-Exact Localizations of oo-Topoi [arXiv](https://arxiv.org/abs/2101.02791)
+4. A Note on Left Exact Modalities in Type Theory [pdf](files/lmhtt.pdf)
+5. Synthetic Spectra via a Monadic and Comonadic Modality [arXiv](https://arxiv.org/abs/2102.04099)
 
 ## Videos
 
