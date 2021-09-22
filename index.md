@@ -6,9 +6,9 @@ layout: default
 
 <img class="profile-picture" src="files/eric.jpg">
 
-I am a lecturer in computer scientist at the University of
-Birmingham. I grew up in Los Angeles, studied in Charlottesville, and
-presently live in Paris.
+I am a lecturer in computer science at the University of Birmingham. I
+grew up in Los Angeles, studied in Charlottesville, and presently live
+in Paris.
 
 ## Research Interests
 
