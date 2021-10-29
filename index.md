@@ -50,7 +50,7 @@ opetopes.
 3. Higher Sheaves and Left-Exact Localizations of oo-Topoi [arXiv](https://arxiv.org/abs/2101.02791)
 4. A Note on Left Exact Modalities in Type Theory [pdf](files/lmhtt.pdf)
 5. Synthetic Spectra via a Monadic and Comonadic Modality [arXiv](https://arxiv.org/abs/2102.04099)
-6. Globular Weak oo-Categories as Models of a Type Theory [pdf](https://arxiv.org/abs/2106.04475)
+6. Globular Weak oo-Categories as Models of a Type Theory [arXiv](https://arxiv.org/abs/2106.04475)
 
 ## Videos
 
