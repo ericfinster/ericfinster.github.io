@@ -26,6 +26,17 @@ Theory](http://www.homotopytypetheory.org).
 I'm also the author of a [site](http://opetopic.net) all about the
 opetopes.
 
+## PhD Opportunities at Birmingham
+
+We are inviting applications for PhD studentships in the Theory Group
+at the University of Birmingham to work on Homotopy Type Theory and
+related areas.  The Theory Group at Birmingham has a broad interest in
+type theory, category theory, programming language theory and
+formalized mathematics, and both I and Martín Escardó are
+active researchers in the HoTT community.
+
+For more information, send me at **e.l.finster** **at** **bham.ac.uk**.
+
 ## Publications
 
 1. Homotopy Type Theory: Univalent Foundations of Mathematics
