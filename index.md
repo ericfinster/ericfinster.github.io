@@ -28,7 +28,7 @@ opetopes.
 
 ## PhD Opportunities at Birmingham
 
-We are inviting applications for PhD studentships in the Theory Group
+We are inviting applications for PhD studentships in the [Theory Group](https://www.birmingham.ac.uk/research/activity/computer-science/theory-of-computation/index.aspx)
 at the University of Birmingham to work on Homotopy Type Theory and
 related areas.  The Theory Group at Birmingham has a broad interest in
 type theory, category theory, programming language theory and
