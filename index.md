@@ -37,6 +37,12 @@ active researchers in the HoTT community.
 
 For more information, send me at **e.l.finster** **at** **bham.ac.uk**.
 
+## Midlands Graduate School
+
+I will be running a course on [topos theory](topos.html) for the
+[Midlands Graduate
+School](https://www.cs.nott.ac.uk/~psznk/events/mgs22.html) this year.
+
 ## Publications
 
 1. Homotopy Type Theory: Univalent Foundations of Mathematics
