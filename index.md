@@ -26,63 +26,52 @@ Theory](http://www.homotopytypetheory.org).
 I'm also the author of a [site](http://opetopic.net) all about the
 opetopes.
 
-## PhD Opportunities at Birmingham
-
-We are inviting applications for PhD studentships in the [Theory Group](https://www.birmingham.ac.uk/research/activity/computer-science/theory-of-computation/index.aspx)
-at the University of Birmingham to work on Homotopy Type Theory and
-related areas.  The Theory Group at Birmingham has a broad interest in
-type theory, category theory, programming language theory and
-formalized mathematics, and both I and Martín Escardó are
-active researchers in the HoTT community.
-
-For more information, send me at **e.l.finster** **at** **bham.ac.uk**.
-
-## Midlands Graduate School
-
-I will be running a course on [topos theory](topos.html) for the
-[Midlands Graduate
-School](https://www.cs.nott.ac.uk/~psznk/events/mgs22.html) this year.
-
 ## Publications
 
 1. Homotopy Type Theory: Univalent Foundations of Mathematics
    * Collaborative Book 2013 [link](https://homotopytypetheory.org/book/)
-2. Eilenberg-MacLane Spaces in Homotopy Type Theory 
+1. Eilenberg-MacLane Spaces in Homotopy Type Theory 
    * LICS Proceedings 2014 [pdf](files/emhott.pdf)/[journal](https://dl.acm.org/citation.cfm?id=2603088)
-3. A Mechanization of the Blakers-Massey Theorem in Homotopy Type Theory
+1. A Mechanization of the Blakers-Massey Theorem in Homotopy Type Theory
    * LICS Proceedings 2016 [pdf](files/bmhott.pdf)/[journal](https://ieeexplore.ieee.org/document/8576476)
-4. A Type Theoretic Definition of Weak &omega;-Categories
+1. A Type Theoretic Definition of Weak &omega;-Categories
    * LICS Proceedings 2017 [pdf](files/catt.pdf)/[journal](https://ieeexplore.ieee.org/document/8005124)
-5. Goodwillie's Calculus of Functors and Higher Topos Theory 
+1. Goodwillie's Calculus of Functors and Higher Topos Theory 
    * Journal of Topology 2018 [arXiv](https://arxiv.org/abs/1703.09632)/[journal](https://londmathsoc.onlinelibrary.wiley.com/doi/pdf/10.1112/topo.12082)
-6. A Generalized Blakers-Massey Theorem
+1. A Generalized Blakers-Massey Theorem
    * Journal of Topology 2020 [arXiv](https://arxiv.org/abs/1703.09050)/[journal](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/topo.12163)
-7. Types are Internal oo-Groupoids
+1. Types are Internal oo-Groupoids
    * LICS Proceedings 2021 [pdf](files/type-int-grpds.pdf)/[cmu seminar notes](files/cmu-hott-seminar-notes.pdf)
+1. A Cartesian Bicategory of Polynomial Functors in Homotopy Type Theory
+   * Mathematical Foundations of Programming Semantics [arXiv](https://arxiv.org/abs/2112.14050)
+1. A Type Theory for Strictly Unital oo-Categories 
+   * LICS Proceedings 2022 [arXiv](https://arxiv.org/abs/2007.08307)
+1. Left-Exact Localizations of oo-Topoi I: Higher Sheaves 
+   * Advances in Mathematics [journal](https://www.sciencedirect.com/science/article/pii/S0001870822000846)
+   
 
 ## Notes, Preprints and Work in Progress
 
-1. A Type Theory for Strictly Unital oo-Categories [arXiv](https://arxiv.org/abs/2007.08307)
-2. A Type Theory for Strictly Associative oo-Categories [arXiv](https://arxiv.org/abs/2109.01513)
-3. Higher Sheaves and Left-Exact Localizations of oo-Topoi [arXiv](https://arxiv.org/abs/2101.02791)
-4. A Note on Left Exact Modalities in Type Theory [pdf](files/lmhtt.pdf)
-5. Synthetic Spectra via a Monadic and Comonadic Modality [arXiv](https://arxiv.org/abs/2102.04099)
-6. Globular Weak oo-Categories as Models of a Type Theory [arXiv](https://arxiv.org/abs/2106.04475)
+1. A Note on Left Exact Modalities in Type Theory [pdf](files/lmhtt.pdf)
+1. A Type Theory for Strictly Associative oo-Categories [arXiv](https://arxiv.org/abs/2109.01513)
+1. Synthetic Spectra via a Monadic and Comonadic Modality [arXiv](https://arxiv.org/abs/2102.04099)
+1. Globular Weak oo-Categories as Models of a Type Theory [arXiv](https://arxiv.org/abs/2106.04475)
+1. Left-Exact Localizations of oo-Topoi II: Grothendieck Topologies [arXiv](https://arxiv.org/abs/2201.01236)
 
 ## Videos
 
 1. Cohomology in Homotopy Type Theory [ias](https://video.ias.edu/univalent/1213/0306-EricFinster)
-2. The Calculus of Opetopes [ias](https://video.ias.edu/1213/univalent/0131-EricFinster)
-3. A Survey of Univalent Foundations [youtube](https://www.youtube.com/watch?v=z3IBvmrcObg)
-4. A Type Theoretic View of Goodwillie Calculus [part one](https://www.youtube.com/watch?v=bcUk4l6B8jI)/[part two](https://www.youtube.com/watch?v=xIHq6XcVEBE)
-5. Weak Structures from Strict Ones [youtube](https://www.youtube.com/watch?v=wz3h59rnhOU)
-6. Higher Algebra in Computer Science [youtube](https://www.youtube.com/watch?v=pD8M4u30dHM)
+1. The Calculus of Opetopes [ias](https://video.ias.edu/1213/univalent/0131-EricFinster)
+1. A Survey of Univalent Foundations [youtube](https://www.youtube.com/watch?v=z3IBvmrcObg)
+1. A Type Theoretic View of Goodwillie Calculus [part one](https://www.youtube.com/watch?v=bcUk4l6B8jI)/[part two](https://www.youtube.com/watch?v=xIHq6XcVEBE)
+1. Weak Structures from Strict Ones [youtube](https://www.youtube.com/watch?v=wz3h59rnhOU)
+1. Higher Algebra in Computer Science [youtube](https://www.youtube.com/watch?v=pD8M4u30dHM)
 
 ## Code
 
 1. [opetopic](https://github.com/ericfinster/opetopic) - A web-based opetope editor
-2. [opetopic-types](https://github.com/ericfinster/opetopic-types) - A library for opetopic types and higher structures in Agda
-3. [catt.io](https://github.com/ericfinster/catt.io) - An implementation of a type theory for weak &omega;-categories
+1. [opetopic-types](https://github.com/ericfinster/opetopic-types) - A library for opetopic types and higher structures in Agda
+1. [catt.io](https://github.com/ericfinster/catt.io) - An implementation of a type theory for weak &omega;-categories
 
 ## My Thesis
 
