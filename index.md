@@ -23,8 +23,8 @@ worked extensively on the connection between this area of topology the
 discipline which goes by the name [Homotopy Type
 Theory](http://www.homotopytypetheory.org).
 
-I'm also the author of a [site](http://opetopic.net) all about the
-opetopes.
+I will be teaching a course on [Homotopy Type Theory](hott.html) at
+the [Midlands Graduate School 2023](https://www.cs.bham.ac.uk/~mhe/events/MGS23/). 
 
 ## Publications
 
