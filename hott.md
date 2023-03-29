@@ -9,7 +9,7 @@ This course will cover some more advanced topics in homotopy type theory.
 ### Prerequisites
 
 I will assume some basic familiarity with basic Martin-Lof dependent
-type theory.  
+type theory.
 
 ### Course Topics
 
