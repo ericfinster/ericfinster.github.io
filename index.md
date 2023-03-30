@@ -24,7 +24,7 @@ discipline which goes by the name [Homotopy Type
 Theory](http://www.homotopytypetheory.org).
 
 I will be teaching a course on [Homotopy Type Theory](hott.html) at
-the [Midlands Graduate School 2023](https://www.cs.bham.ac.uk/~mhe/events/MGS23/). 
+the [Midlands Graduate School 2023](https://www.cs.bham.ac.uk/~mhe/events/MGS23/).
 
 ## Publications
 
@@ -69,7 +69,7 @@ the [Midlands Graduate School 2023](https://www.cs.bham.ac.uk/~mhe/events/MGS23/
 
 ## Code
 
-1. [opetopic](https://github.com/ericfinster/opetopic) - A web-based opetope editor
+1. [opetopic](https://github.com/ericfinster/opetopic) - A web-based opetope editor (temporarily down)
 1. [opetopic-types](https://github.com/ericfinster/opetopic-types) - A library for opetopic types and higher structures in Agda
 1. [catt.io](https://github.com/ericfinster/catt.io) - An implementation of a type theory for weak &omega;-categories
 
