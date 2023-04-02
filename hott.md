@@ -17,6 +17,12 @@ type theory.
 1. [Introduction to Univalent Foundations of Mathematics with Agda](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)
 1. [Introduction to Homotopy Type Theory](https://arxiv.org/abs/2212.11082)
 
+### Exercises
+
+I've started an [hott-mgs](https://github.com/ericfinster/hott-mgs) repository for experimenting with HoTT in Agda.  We can build out some of the basic structure during the exercise sessions.  Feel free to clone and submit pull requests so that we make progress as the week progresses.
+
+1. [Exercise Sheet 1](files/hott-mgs-exercises-1.pdf)
+
 ### Course Topics
 
 We will cover some of the basic concepts of homotopy type theory 
