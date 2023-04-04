@@ -22,6 +22,7 @@ type theory.
 I've started an [hott-mgs](https://github.com/ericfinster/hott-mgs) repository for experimenting with HoTT in Agda.  We can build out some of the basic structure during the exercise sessions.  Feel free to clone and submit pull requests so that we make progress as the week progresses.
 
 1. [Exercise Sheet 1](files/hott-mgs-exercises-1.pdf)
+1. [Exercise Sheet 2](files/hott-mgs-exercises-2.pdf)
 
 ### Course Topics
 
