@@ -24,6 +24,7 @@ I've started an [hott-mgs](https://github.com/ericfinster/hott-mgs) repository f
 1. [Exercise Sheet 1](files/hott-mgs-exercises-1.pdf)
 1. [Exercise Sheet 2](files/hott-mgs-exercises-2.pdf)
 1. [Exercise Sheet 3](files/hott-mgs-exercises-3.pdf)
+1. [Exercise Sheet 4](files/hott-mgs-exercises-4.pdf)
 
 ### Course Topics
 
